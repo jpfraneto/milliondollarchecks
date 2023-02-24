@@ -17,6 +17,10 @@ export default function Home() {
           <Image key={i} src='check.svg' alt='Verified' width={4} height={4} />
         ))}
       </main>
+      <div className={styles.looseMessage}>
+        <h2>TRUST</h2>
+        <h2>YOURSELF</h2>
+      </div>
     </div>
   );
 }

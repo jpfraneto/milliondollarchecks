@@ -4,4 +4,23 @@
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+}
+
+.looseMessage {
+  position: absolute;
+  left: 50%;
+  top: 50vh;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: fit-content;
+  font-size: 4rem;
+  font-family: 'Comic Neue', cursive;
+  color: gray;
+  opacity: 0.5;
+}
+
+.looseMessage h2 {
+  margin: 0;
 }

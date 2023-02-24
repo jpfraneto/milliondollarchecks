@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Million Dollar Checks</title>
         <meta name='description' content='Own a piece of internet history!' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/check.svg' />
       </Head>
 
       <main className={styles.main}>
